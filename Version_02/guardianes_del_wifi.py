@@ -1,7 +1,7 @@
 # bits & bytes
 # Fecha: Junio de 2025
-# Descripción: version O1 Juego "Guardianes del Wifi"
-
+# Descripción: version O2 Juego "Guardianes del Wifi"
+from Configurations import Configurations
 import pygame
 def run_game()->None:
     """
@@ -11,11 +11,11 @@ def run_game()->None:
     pygame.init()
 
     #Se inicializa la pantalla
-    screen_size=(1280,720) #Alto por ancho
+    screen_size=Configurations.get_screen_size() #Alto por ancho
     screen=pygame.display.set_mode(screen_size)
 
     #Título del juego
-    game_title="Guardianes del Wifi"
+    game_title=Configurations.get_game_title()
     pygame.display.set_caption(game_title)
 
     #Ciclo principal del juego
@@ -27,7 +27,7 @@ def run_game()->None:
             if event.type==pygame.QUIT:
                 game_over=True
         #Se dibuja los elementos gráficos em la pantalla
-        background=(100,255,50)#Fondo de la pantalla en RGB
+        background=Configurations.get_background()#Fondo de la pantalla en RGB
         screen.fill(background)
 
         #Se actualiza la pantalla
