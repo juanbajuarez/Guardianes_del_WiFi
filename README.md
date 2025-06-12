@@ -37,4 +37,4 @@ Inspirado en *Guardianes del Sol*, con estética pixel-art retro y una divertida
 - Carrera: Licenciatura en Informática
 - Curso: Paradigmas de Programación
 - Profesores: Dr. Alberto Martínez Barbosa
-- Autores: Juan Bautista Juárez y Lourdes Jamileth Durán Breceda
+- Autores: Lourdes Jamileth Durán Breceda y Juan Bautista Juárez 
