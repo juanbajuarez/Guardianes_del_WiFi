@@ -5,6 +5,8 @@ from Configurations import Configurations
 import pygame
 from Game_functionalities import game_event,screen_refresh
 from Media import Background
+from Pantallazo import Pantallazo
+from Troll import Troll
 def run_game()->None:
     """
     Función principal
@@ -18,13 +20,16 @@ def run_game()->None:
     clock = pygame.time.Clock()
 
     background = Background()
+    pantallazo = Pantallazo(screen)
+    troll = Troll(screen)
+
 
     #Ciclo principal del juego
     game_over=False
     while not game_over:
         game_over = game_event()
         # Se dibuja los elementos gráficos en la pantalla
-        screen_refresh(screen, clock, background)
+        screen_refresh(screen, clock, background,pantallazo)
         # Se cierran los recursos del juego
     #Se cierran los recursos del juego
     pygame.quit()
