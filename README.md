@@ -36,5 +36,5 @@ Inspirado en *Guardianes del Sol*, con estética pixel-art retro y una divertida
 - Universidad de la Sierra Juárez
 - Carrera: Licenciatura en Informática
 - Curso: Paradigmas de Programación
-- Profesores: Dr. Alberto Martínez Barbosa
-- Autores: Lourdes Jamileth Durán Breceda y Juan Bautista Juárez 
+- Profesor: Dr. Alberto Martínez Barbosa
+- Desarrolladores: Lourdes Jamileth Durán Breceda y Juan Bautista Juárez 
